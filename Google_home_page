@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Clone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: white;
+            text-align: center;
+        }
+
+        .link {
+            gap: 20px;
+            display: flex;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        .link a {
+            text-decoration: none;
+            color: black;
+            font-size: 14px;
+        }
+
+        .link button {
+            font-size: 14px;
+            padding: 5px 10px;
+            border: 1px solid lightgray;
+            border-radius: 4px;
+            cursor: pointer;
+            background-color: white;
+        }
+
+        .logo {
+            margin-bottom: 20px;
+        }
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+            width: 90%;
+            max-width: 600px;
+            border: 1px solid lightgray;
+            border-radius: 24px;
+            padding: 10px 15px;
+            background-color: white;
+            box-shadow: 0 1px 4px black;
+        }
+
+        .search-bar input {
+            flex: 1;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            padding: 5px;
+        }
+
+        .search-bar button {
+            background-color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .buttons {
+            margin-top: 20px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .buttons button {
+            padding: 10px 20px;
+            font-size: 14px;
+            color: black;
+            background-color: #f8f9fa;
+            border: 1px solid lightgray;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .buttons button:hover {
+            background-color: lightgray;
+        }
+
+        footer {
+            margin-top: 40px;
+            color: gray;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="link">
+            <a href="#">Home</a>
+            <a href="#">Gmail</a>
+            <a href="#">Images</a>
+            <a href="#"><button>Sign In</button></a>
+        </div>
+    </header>
+    <div class="logo">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+    </div>
+    <div class="search-bar">
+        <input type="text" placeholder="Search Google or type a URL">
+        <button>
+            <img src="https://img.icons8.com/ios-glyphs/30/search--v1.png" alt="Search Icon" width="20">
+        </button>
+    </div>
+    <div class="buttons">
+        <button>Google Search</button>
+        <button>I'm Feeling Lucky</button>
+    </div>
+    
+</body>
+</html>
